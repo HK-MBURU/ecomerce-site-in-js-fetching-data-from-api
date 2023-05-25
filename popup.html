@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product List</title>
+  <style>
+    /* CSS styles for the pop-up */
+    .popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      width: 300px;
+      border: 1px solid #ccc;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="items"></div>
+
+  <div class="popup" id="popup">
+    <h2>Item Details</h2>
+    <p id="itemName"></p>
+    <p id="itemQuantity"></p>
+    <p id="itemPrice"></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
